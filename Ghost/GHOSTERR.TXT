@@ -1,0 +1,903 @@
+*********************************
+Date   : Mon Jul 15 15:53:54 2019
+Error Number: (651)
+Message: Unable to locate next span.
+Operation aborted at user request.
+
+Version: 11.5.0.2113 (Apr 22 2008, Build=2113)
+OS Version: Professional  (Build 9200)
+Command line arguments:
+Active Switches :
+       AutoName
+PathName            : 158 maxresdefault.jpg
+DumpFile            : 1.1:\HP100001.GHS
+DumpPos             : 107347968
+Last LFO Buffersize : 1048576
+Last LFO Path       : 
+  Full Path         : 1.1:\HP100001.GHS
+  Disk:Partition    : 1:1
+Last LFO Filesystem : Proprietary
+Last LFO Error      : Filesystem error (2): File or directory does not exist
+Last LFO Error Path : 
+  Full Path         : 1.1:\HP100001.GHS
+  Disk:Partition    : 1:1
+FlagImplode         : 2
+FlagExplode         : 0
+
+Operation Details :
+  Total size.........76416
+  MB copied..........189
+  MB remaining.......76227
+  Percent complete...0%
+  Speed..............1134 MB/min
+  Time elapsed.......0:10   
+  Time remaining.....1:07:13
+
+Thread #7356 Call Stack
+AbortLog
+Generic_Abort
+WinSpanning
+GetNextFile
+WriteSpanHeader
+DumpWrite
+NTFSWrite
+writeFirstSeqPacket
+dumpRun
+dumpAttribute
+dumpAttributes
+dumpMFTRec
+dumpMFT
+dumpVol
+DumpNTFSPartition
+ProcessNTFSPartition
+CopyPartition
+ProcessAllPartitions
+CopyAllPartitions
+CopyPartToFile
+CopyMainline
+AttemptOperation
+sub_main
+main
+
+Call Stack
+Address            Frame              Logical Addr              Module
+0x00007ff80dcfddf4 0x0000000000146ff0 0x0001:0x000000000009cdf4 C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffff0f09560 0x0000000000146ff8 SymLoadModule+0x0000000000000000
+0x00007ffff1017d2f 0x0000000000147000 SymSearchW+0x000000000000007f
+0x00007ffff1015baf 0x0000000000147008 SymEnumTypesW+0x000000000000004f
+0x00007ffff101816f 0x0000000000147010 SymUnDName+0x000000000000004f
+0x00000001404a8a10 0x0000000000147018 0x0002:0x0000000000002a10 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x0000000000149030 0x0000000000147020 0x0000:0x0000000000000000 
+0x000000014017066e 0x0000000000147530 0x0001:0x000000000016f66e \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x000000014002e89a 0x00000000001477f0 0x0001:0x000000000002d89a \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x000000014002ef6d 0x00000000001488e0 0x0001:0x000000000002df6d \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x000000014002f23f 0x0000000000148ff0 0x0001:0x000000000002e23f \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x000000014002fa03 0x0000000000149240 0x0001:0x000000000002ea03 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400838cb 0x000000000014e520 0x0001:0x00000000000828cb \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400ab551 0x000000000014e560 0x0001:0x00000000000aa551 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400abce3 0x000000000014e960 0x0001:0x00000000000aace3 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400ac253 0x000000000014e9d0 0x0001:0x00000000000ab253 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f268c 0x000000000014ea20 0x0001:0x00000000000f168c \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f28c9 0x000000000014ea80 0x0001:0x00000000000f18c9 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f2bb1 0x000000000014eaf0 0x0001:0x00000000000f1bb1 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f328f 0x000000000014eb60 0x0001:0x00000000000f228f \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f34b0 0x000000000014ebc0 0x0001:0x00000000000f24b0 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f397a 0x000000000014ec20 0x0001:0x00000000000f297a \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f3f58 0x000000000014ec80 0x0001:0x00000000000f2f58 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400f40ac 0x000000000014ecd0 0x0001:0x00000000000f30ac \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x0000000140075ad5 0x000000000014ed90 0x0001:0x0000000000074ad5 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x0000000140075cdc 0x000000000014ede0 0x0001:0x0000000000074cdc \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x0000000140038a9c 0x000000000014eee0 0x0001:0x0000000000037a9c \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400394f5 0x000000000014ef20 0x0001:0x00000000000384f5 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x0000000140039d25 0x000000000014ef60 0x0001:0x0000000000038d25 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x000000014003dd2e 0x000000000014f1e0 0x0001:0x000000000003cd2e \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400bc5c6 0x000000000014f230 0x0001:0x00000000000bb5c6 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400bc83d 0x000000000014f270 0x0001:0x00000000000bb83d \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400bde73 0x000000000014fbc0 0x0001:0x00000000000bce73 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x00000001400bea7a 0x000000000014fed0 0x0001:0x00000000000bda7a \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+0x0000000140434d95 0x000000000014fed8 0x0001:0x0000000000433d95 \\10.101.8.106\d$\Software\Ghost\Ghost64.exe
+End Call Stack
+
+
+Start heap available: 1061974016
+Cur   heap available: 906498048
+Total Memory:         4185071616
+
+Allocated
+  33500 ..\ghost.cpp:1505
+Free
+  32768 ..\AlignBufferedImageFileDevice.cpp:105
+
+Fat details:
+  SRC:
+  FatType..........32
+  firstSector.......2048
+  ClusterSize......4096
+  clusters.........91136
+  root_next_avail..0
+  data_next_avail..0
+  dir_sector.......0
+  root_sector......8192
+  data_sector......8192
+  FAT_sector.......0
+
+NTFS details:
+----------------
+
+NTFS Global Flags:
+----------------
+	 contiguousWrite=1 forceDiskClusterMapping=0 
+	 inhibitCHKDSK=1 ignoreBadLog=0 ignoreCHKDSKBit=0
+	 enable_cache=0 xfrbuflen=32768 
+	 last_attr_type = 0 
+	 loadExact = 0 
+	 sameSize = 0 
+----------------
+	=======================================================
+	NTFS volume 0:
+	----------------
+	initialised..............1
+	read cached..............N
+	Selective caching........N
+	flags....................Volume Unknown
+	drive....................0x00
+	part order...............2
+	version..................0x0400
+	volsize..................419428351
+	blocksize................512
+	clusterfactor............8
+	clustersize..............4096
+	mftrecordsize............1024
+	indexrecordsize..........4096
+	indexclustperrecord......1
+	bootSectorCopyOffset.....419428351
+	pagefileSys..............-1
+	bootIni..................-1
+	volumeLabel..............[New Volume]
+	sectorsInUse.............171967088
+	totalNonCopiedBytes......7918911488
+	bytesToCopy..............0
+	bitmapClusters...........1600
+	bitmapUsedBytes..........6553568
+	estimatedClusters........1600
+	estimatedUsedBytes.......6553568
+	clustersizeShift.........12
+	blocksizeShift...........9
+	mftrecordsizeShift.......10
+	indexrecordsizeShift.....12
+	totalRootMftRecs.........2797
+	clustermap failover......N
+	Boot sector details
+		name....................[NTFS    ]
+		blocksize...............512
+		clusterfactor...........8
+		reservedSectorsUnused...0
+		mediaType...............0xf8
+		secPerTrack.............63
+		numHeads................255
+		hiddenSectors...........517355520
+		volsize.................419428351
+		mftcluster..............786432
+		mftmirrorcluster........2
+		clustersPerMFTRecord....246
+		clustersPerIndexBuffer..1
+
+		---------------------------------------------------
+		Cluster Allocation Map
+		---------------------------------------------------
+		Start: 52428543 Length: 0 Next: 52428543
+
+
+	=======================================================
+	=======================================================
+	NTFS volume 1:
+	----------------
+	initialised..............1
+	read cached..............N
+	Selective caching........N
+	flags....................Volume OK
+	drive....................0x00
+	part order...............3
+	version..................0x0400
+	volsize..................37969919
+	blocksize................512
+	clusterfactor............8
+	clustersize..............4096
+	mftrecordsize............1024
+	indexrecordsize..........4096
+	indexclustperrecord......1
+	bootSectorCopyOffset.....37969919
+	pagefileSys..............-1
+	bootIni..................-1
+	volumeLabel..............[Recovery I]
+	sectorsInUse.............107160
+	totalNonCopiedBytes......0
+	bytesToCopy..............0
+	bitmapClusters...........145
+	bitmapUsedBytes..........593280
+	estimatedClusters........145
+	estimatedUsedBytes.......593280
+	clustersizeShift.........12
+	blocksizeShift...........9
+	mftrecordsizeShift.......10
+	indexrecordsizeShift.....12
+	totalRootMftRecs.........0
+	clustermap failover......N
+	Boot sector details
+		name....................[NTFS    ]
+		blocksize...............512
+		clusterfactor...........8
+		reservedSectorsUnused...0
+		mediaType...............0xf8
+		secPerTrack.............63
+		numHeads................255
+		hiddenSectors...........938792960
+		volsize.................37969919
+		mftcluster..............786432
+		mftmirrorcluster........2
+		clustersPerMFTRecord....246
+		clustersPerIndexBuffer..1
+
+		---------------------------------------------------
+		Cluster Allocation Map
+		---------------------------------------------------
+		Start: 4746239 Length: 0 Next: 4746239
+
+
+	=======================================================
+	=======================================================
+	NTFS volume 2:
+	----------------
+	initialised..............1
+	read cached..............N
+	Selective caching........N
+	flags....................Volume OK
+	drive....................0x00
+	part order...............1
+	version..................0x0400
+	volsize..................515368727
+	blocksize................512
+	clusterfactor............8
+	clustersize..............4096
+	mftrecordsize............1024
+	indexrecordsize..........4096
+	indexclustperrecord......1
+	bootSectorCopyOffset.....515368727
+	pagefileSys..............-1
+	bootIni..................-1
+	volumeLabel..............[]
+	sectorsInUse.............385626104
+	totalNonCopiedBytes......0
+	bytesToCopy..............0
+	bitmapClusters...........1966
+	bitmapUsedBytes..........8052640
+	estimatedClusters........1966
+	estimatedUsedBytes.......8052640
+	clustersizeShift.........12
+	blocksizeShift...........9
+	mftrecordsizeShift.......10
+	indexrecordsizeShift.....12
+	totalRootMftRecs.........0
+	clustermap failover......N
+	Boot sector details
+		name....................[NTFS    ]
+		blocksize...............512
+		clusterfactor...........8
+		reservedSectorsUnused...0
+		mediaType...............0xf8
+		secPerTrack.............63
+		numHeads................255
+		hiddenSectors...........1001472
+		volsize.................515368727
+		mftcluster..............786432
+		mftmirrorcluster........2
+		clustersPerMFTRecord....246
+		clustersPerIndexBuffer..1
+
+		---------------------------------------------------
+		Cluster Allocation Map
+		---------------------------------------------------
+		Start: 64421090 Length: 0 Next: 64421090
+
+
+	=======================================================
+
+Disk Info :
+  remote.............0
+  drive..............0
+  sectorsUsedCount.......973504280
+  estimatedUsedCount.....156500465
+  numPartitions..............1
+  Version............1150
+  Full structure dump....
+   {
+      PID_START_BYTE: 0
+      SVersion: 1150
+      SCylinders: 60801
+      SDiskFormat: 19
+      SMbr: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0100 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0120 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0130 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0140 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0160 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0170 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0180 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0190 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01c0 02 00 ee ff ff ff 01 00 00 00 ff ff ff ff 00 00 
+         0x01d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 aa 
+         0x0200 
+      SIsSpanned: false
+      SOs2Name: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 
+      SFingerprint: 5d2c540c
+      SHeadsPerCyl: ff
+      SectorsPerTrack: 3f
+      SRemote: false
+      SEndOfImagePosition: 200
+      PID_BYTE_COUNT: 7470c06000
+      SFlags: 1
+      SPatchedFileCount: 0
+      PID_GPT_SLOT_COUNT: 80
+      SDrive: 0
+      PID_GPT_UUID: c38a4fc4-778c-4e1a-ae61-32ff4fa9bb56
+      PID_DISK_NOTIFY_OS: true
+      PID_PARTITION_NODE_FORMAT: 13
+      SEstimatedUsed: 95401f1
+      STotalSectors: 3a386030
+      SPartitions: 
+      {
+         PID_POSITION_ID: 1.3:
+         SFlagInp: 3
+         SFileOperationOffset: 0
+         PID_VOLUME_NAME: New Volume
+         PID_FIND_FIRST: false
+         PID_FIND_BEST_FIT: false
+         SSlot: 4
+         PID_PARTITION_TYPE: ebd0a0a2-b9e5-4433-87c0-68b6b72699c7
+         PID_PARTITION_ATTRIBUTES: 0
+         PID_VOLUME_DRIVE_LETTER: D:
+         SNumSects: 18fff800
+         PID_FORMAT_TYPE: 8
+         SOrder: 2
+         SFpos: 1000
+         PID_VOLUME_SLOT_NUMBER: 4
+         PID_VOLUME_START: 3dac6fbc00
+         SBootable: false
+         PID_CLEANLY_SHUTDOWN: true
+         SExtended: false
+         SSystemId: 7
+         SSizeAdjustment: 0
+         PID_IS_VOLUME_CONTAINER: false
+         PID_PARTITION_ID: 1ba5943a-5d27-46d6-87fa-d43fcd327254
+         PID_FORMAT: 1
+         PID_ACTIVE: false
+         PID_EXTENT: 
+         {
+            PID_EXTENT_CONTAINER_EXTENT_INDEX: 0
+            PID_EXTENT_START: 3dac6fbc00
+            PID_EXTENT_SIZE_MINIMUM: 31fff00000
+            PID_EXTENT_SIZE_MAXIMUM: 31fff00000
+         }
+         SFirstSect: 1ed63800
+         PID_READ_ONLY: false
+         PID_FIND_LAST: false
+         PID_NAME: Basic data partition
+         SFlags: 0
+         PID_ROLE_FORMAT_MATCHING_TYPE: 0
+         SEndFpos: 0
+         PID_VOLUME_SIZE_MINIMUM: 31fff00000
+         PID_FIND_WORST_FIT: false
+         SGflags: 4
+         PID_PARTITION_NAME: Basic data partition
+         PID_NO_HARD_ERROR: true
+         PID_VOLUME_SIZE_MAXIMUM: 31fff00000
+         PID_HIDDEN: false
+         PID_IS_VOLUME: true
+         PID_VOLUME_NOTIFY_OS: true
+         SSectorsUsed: a400270
+         PID_ROLE: 2
+      }
+      PID_CONTAINER_ID: 1:
+      SSectorsUsed: 3a067f18
+   }
+
+
+ # Ord Boot Id Ext     First        Num       Last       Used NTFS
+ 0  2    0   7 No  517355520  419428352  936783872  171967088 Yes
+
+Disk Info :
+  remote.............0
+  drive..............0
+  sectorsUsedCount.......0
+  estimatedUsedCount.....0
+  numPartitions..............0
+  Version............0
+  Full structure dump....
+   {
+      SVersion: 0
+      SCylinders: 0
+      SDiskFormat: 1
+      SMbr: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0010 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0100 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0120 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0130 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0140 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0160 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0170 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0180 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0190 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01a0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01d0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01e0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x01f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+         0x0200 
+      SIsSpanned: false
+      SOs2Name: 
+         0x0000 00 00 00 00 00 00 00 00 00 00 
+      SFingerprint: 0
+      SHeadsPerCyl: 0
+      SectorsPerTrack: 0
+      SRemote: false
+      SEndOfImagePosition: 0
+      SFlags: 0
+      SPatchedFileCount: 0
+      SDrive: 0
+      SEstimatedUsed: 0
+      STotalSectors: 0
+      SPartitions: 
+      [
+      ]
+      SSectorsUsed: 0
+   }
+
+
+ # Ord Boot Id Ext     First        Num       Last       Used NTFS
+
+Fixed Drives
+
+Drive 0 WDC WD5000LPLX-66ZNT 02.0
+
+Total Sectors            976773168
+Bytes per Sector         512
+MB                       476940
+Cylinders                60801
+Heads                    255
+Sectors per Track        63
+
+Drive 0 WDC WD5000LPLX-66ZNT 02.0
+ASPI
+Total Sectors            976773168
+Bytes per Sector         512
+MB                       476940
+Successful IO Count      0
+
+WinNT (Active)
+Total Sectors            976773168
+Bytes per Sector         512
+MB                       476940
+Cylinders                60801
+Heads                    255
+Sectors per Track        63
+Successful IO Count      10
+
+Drive 1 JetFlash Transcend 4GB 8.07
+
+Total Sectors            7843840
+Bytes per Sector         512
+MB                       3830
+Cylinders                488
+Heads                    255
+Sectors per Track        63
+
+Drive 1 JetFlash Transcend 4GB 8.07
+ASPI
+Total Sectors            7843840
+Bytes per Sector         512
+MB                       3830
+Successful IO Count      0
+
+WinNT (Active)
+Total Sectors            7843840
+Bytes per Sector         512
+MB                       3830
+Cylinders                488
+Heads                    255
+Sectors per Track        63
+Successful IO Count      5
+
+AsyncIo : 0
+Volume attributes
+=================
+1.1:
+Attribute dump
+DiskModelNumber:WDC WD5000LPLX-66ZNT 02.0
+VolumeSectorOffset:2048
+
+1.2:
+Attribute dump
+DiskModelNumber:WDC WD5000LPLX-66ZNT 02.0
+VolumeSectorOffset:1001472
+
+1.3:
+Attribute dump
+DiskModelNumber:WDC WD5000LPLX-66ZNT 02.0
+VolumeSectorOffset:517355520
+
+1.4:
+Attribute dump
+DiskModelNumber:WDC WD5000LPLX-66ZNT 02.0
+VolumeSectorOffset:938792960
+
+2.1:
+Attribute dump
+DiskSignature9x:1978164454
+DiskSignatureNt:193550765
+DiskModelNumber:JetFlash Transcend 4GB 8.07
+VolumeSectorOffset:2048
+
+80.1:
+Attribute dump
+DiskModelNumber:OS Volumes
+VolumeSectorOffset:1001472
+
+80.2:
+Attribute dump
+DiskModelNumber:OS Volumes
+VolumeSectorOffset:517355520
+
+80.3:
+Attribute dump
+DiskModelNumber:OS Volumes
+VolumeSectorOffset:938792960
+
+80.4:
+Attribute dump
+DiskModelNumber:OS Volumes
+VolumeSectorOffset:976764928
+
+LargeMemoryAllocationFactory diagnostic...
+==========================================
+
+Heap available at construction: 1061974016
+Current heap available:         906567680
+Total Memory:                   4185071616
+
+Allocated
+
+DiskManager diagnostic...
+=========================
+
+Fixed Drives
+
+Drive 0 WDC WD5000LPLX-66ZNT 02.0
+
+Total Sectors            976773168
+Bytes per Sector         512
+MB                       476940
+Cylinders                60801
+Heads                    255
+Sectors per Track        63
+
+Drive 0 WDC WD5000LPLX-66ZNT 02.0
+ASPI
+Total Sectors            976773168
+Bytes per Sector         512
+MB                       476940
+Successful IO Count      0
+
+WinNT (Active)
+Total Sectors            976773168
+Bytes per Sector         512
+MB                       476940
+Cylinders                60801
+Heads                    255
+Sectors per Track        63
+Successful IO Count      14
+
+Drive 1 JetFlash Transcend 4GB 8.07
+
+Total Sectors            7843840
+Bytes per Sector         512
+MB                       3830
+Cylinders                488
+Heads                    255
+Sectors per Track        63
+
+Drive 1 JetFlash Transcend 4GB 8.07
+ASPI
+Total Sectors            7843840
+Bytes per Sector         512
+MB                       3830
+Successful IO Count      0
+
+WinNT (Active)
+Total Sectors            7843840
+Bytes per Sector         512
+MB                       3830
+Cylinders                488
+Heads                    255
+Sectors per Track        63
+Successful IO Count      6
+
+FilesystemMounter diagnostic...
+===============================
+
+
+FilesystemManager diagnostic...
+===============================
+
+Volume 1
+VolumePos: 1.2:
+DriveLetter: C:
+Description:  245.75GB Disk 0 Offset     489MB  245.75GB WDC WD5000LPLX-66ZNT 02.0
+Type:        fsfNtfsWindowsXP
+Name:        
+
+Volume 2
+VolumePos: 1.3:
+DriveLetter: D:
+Description:     200GB Disk 0 Offset  246.69GB     200GB WDC WD5000LPLX-66ZNT 02.0
+Type:        fsfNtfsWindowsXP
+Name:        New Volume
+
+Volume 3
+VolumePos: 1.4:
+DriveLetter: E:
+Description:   18.11GB Disk 0 Offset  447.65GB   18.11GB WDC WD5000LPLX-66ZNT 02.0
+Type:        fsfNtfsWindowsXP
+Name:        Recovery Image
+
+Volume 4
+VolumePos: 2.1:
+DriveLetter: G:
+Description:    3.74GB Primary Disk 1 Offset       1MB    3.74GB JetFlash Transcend 4GB 8.07
+Type:        fsfNtfsWindowsXP
+Name:        GSP1RMCPRXVOL_EN_DVD
+
+Volume 5
+VolumePos: 1.1:
+DriveLetter: 
+Description:     360MB Disk 0 Offset       1MB     360MB WDC WD5000LPLX-66ZNT 02.0
+Type:        fsfFat32
+Name:        SYSTEM
+
+Volume 6
+VolumePos: 80.1:
+DriveLetter: C:
+Description:  245.75GB Disk 79 Offset     489MB  245.75GB OS Volumes
+Type:        fsfNtfsWindowsXP
+Name:        
+
+Volume 7
+VolumePos: 80.2:
+DriveLetter: D:
+Description:     200GB Disk 79 Offset  246.69GB     200GB OS Volumes
+Type:        fsfNtfsWindowsXP
+Name:        New Volume
+
+Volume 8
+VolumePos: 80.3:
+DriveLetter: E:
+Description:   18.11GB Disk 79 Offset  447.65GB   18.11GB OS Volumes
+Type:        fsfNtfsWindowsXP
+Name:        Recovery Image
+
+Volume 9
+VolumePos: 80.4:
+DriveLetter: G:
+Description:    3.74GB Disk 79 Offset  465.76GB    3.74GB OS Volumes
+Type:        fsfNtfsWindowsXP
+Name:        GSP1RMCPRXVOL_EN_DVD
+
+
+LfoFilesystemManager diagnostic...
+==================================
+
+Filesystem Index: 0
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: C:
+    ID Type: 1
+    ID: 1.2:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: 
+
+Filesystem Index: 1
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: D:
+    ID Type: 1
+    ID: 1.3:
+    ID Type: 4
+    ID: NEW VOLUME:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: New Volume
+
+Filesystem Index: 2
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: E:
+    ID Type: 1
+    ID: 1.4:
+    ID Type: 4
+    ID: RECOVERY IMAGE:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: Recovery Image
+
+Filesystem Index: 3
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: F:
+  DriveType: 8
+  No FilesystemInfo structure.
+  Filesystem has no VolumePtr
+
+Filesystem Index: 4
+Filesystem Descriptor:
+  ID's:
+    ID Type: 2
+    ID: G:
+    ID Type: 1
+    ID: 2.1:
+    ID Type: 4
+    ID: GSP1RMCPRXVOL_EN_DVD:
+  DriveType: 2
+  FilesystemInfo:
+    formatType: 8
+    volumeName: GSP1RMCPRXVOL_EN_DVD
+
+Filesystem Index: 5
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 1.1:
+    ID Type: 4
+    ID: SYSTEM:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 3
+    volumeName: SYSTEM
+
+Filesystem Index: 6
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 80.1:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: 
+
+Filesystem Index: 7
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 80.2:
+    ID Type: 4
+    ID: NEW VOLUME:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: New Volume
+
+Filesystem Index: 8
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 80.3:
+    ID Type: 4
+    ID: RECOVERY IMAGE:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: Recovery Image
+
+Filesystem Index: 9
+Filesystem Descriptor:
+  ID's:
+    ID Type: 1
+    ID: 80.4:
+    ID Type: 4
+    ID: GSP1RMCPRXVOL_EN_DVD:
+  DriveType: 4
+  FilesystemInfo:
+    formatType: 8
+    volumeName: GSP1RMCPRXVOL_EN_DVD
+
+
+Environment Variables
+=====================
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Administrator\AppData\Roaming
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=8CG8154X79
+ComSpec=C:\WINDOWS\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+HOMEPATH=\Users\Administrator
+LOCALAPPDATA=C:\Users\Administrator\AppData\Local
+LOGONSERVER=\\8CG8154X79
+NUMBER_OF_PROCESSORS=4
+OneDrive=C:\Users\Administrator\OneDrive
+OS=Windows_NT
+Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9e09
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\ADMINI~1\AppData\Local\Temp
+TMP=C:\Users\ADMINI~1\AppData\Local\Temp
+USERDOMAIN=8CG8154X79
+USERDOMAIN_ROAMINGPROFILE=8CG8154X79
+USERNAME=Administrator
+USERPROFILE=C:\Users\Administrator
+windir=C:\WINDOWS
+__COMPAT_LAYER=Installer
+
+
+*********************************
